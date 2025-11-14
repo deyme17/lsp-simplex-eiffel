@@ -1,0 +1,53 @@
+# Eiffel Studio specific
+/EIFGENs/
+/.es
+/*.epr
+/*.ecf
+/*.eant
+/*.log
+/project.epr
+/EIFGEN/
+/Precompile/
+/elks/
+/elks64/
+
+# Compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.a
+
+# Backup files
+*~
+*.bak
+*.backup
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Documentation
+/docs_build/
+/HTML_DOC/
+
+# Testing
+/TEST/
+/Testing/
