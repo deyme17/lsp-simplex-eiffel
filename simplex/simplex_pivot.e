@@ -21,6 +21,8 @@ feature -- operation
 
             i, j: INTEGER
         do
+        	ctx.disable_invariants
+
             -- 1. constants
             create one.make_from_integer (1)
 
@@ -125,11 +127,15 @@ feature -- operation
             end
 
             -- 7. update sets B and N
-            ctx.B.prune (leaving_var)
-            ctx.B.extend (entering_var)
+			ctx.B.start
+			ctx.B.prune (leaving_var)
+			ctx.B.extend (entering_var)
 
-            ctx.N.prune (entering_var)
-            ctx.N.extend (leaving_var)
+			ctx.N.start
+			ctx.N.prune (entering_var)
+			ctx.N.extend (leaving_var)
+
+			ctx.enable_invariants
 
         ensure
             basis_swapped: ctx.is_basic (entering_var) and ctx.is_nonbasic (leaving_var)

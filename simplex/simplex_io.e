@@ -42,7 +42,7 @@ feature -- operations
             Result := True
             line_number := 0
 
-            -- 1. Read c vector
+            -- 1. read c vector
             if not read_line then
                 Result := False
             else
@@ -96,31 +96,45 @@ feature -- operations
             -- finalize
             if Result then
                 context.set_dimensions (temp_m, context.num_variables)
+                context.enable_invariants
             end
         end
 
 feature {NONE} -- implementation
     last_line: STRING
 
-    read_line: BOOLEAN
+	read_line: BOOLEAN
         local
             l_line: STRING
             done: BOOLEAN
         do
-            from Result := True; done := False
-            until done or io.last_string = Void or io.last_string.is_empty or io.last_string.starts_with ("#")
+            from
+                done := False
+                Result := False
+            until
+                done
             loop
                 io.read_line
-                if io.last_string = Void then
-                    done := True; Result := False
+
+                if io.input.end_of_file and (io.last_string = Void or else io.last_string.is_empty) then
+                    done := True
+                    Result := False
+                elseif io.last_string = Void then
+                    done := True
+                    Result := False
                 else
                     line_number := line_number + 1
                     l_line := io.last_string.twin
                     l_line.left_adjust
                     l_line.right_adjust
+
                     if not l_line.is_empty and then not l_line.starts_with ("#") then
                         last_line := l_line
+                        Result := True
                         done := True
+                    elseif io.input.end_of_file then
+                        done := True
+                        Result := False
                     end
                 end
             end
