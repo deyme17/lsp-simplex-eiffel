@@ -1,0 +1,31 @@
+
+simplexeiffel: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+SIMPLEX_CONTEXT     _invariant @3          all_b_non_negative:          
+<00000195E5F5A608>                         Class invariant violated.     Fail
+-------------------------------------------------------------------------------
+SIMPLEX_CONTEXT     _invariant                                          
+<00000195E5F5A608>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+SIMPLEX_CONTEXT     enable_invariants @2                                
+<00000195E5F5A608>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+SIMPLEX_IO          read_from_stdin @41                                 
+<00000195E5F5ADD8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+SIMPLEXAPP          run_real_solver @5                                  
+<00000195E5F5A5A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+SIMPLEXAPP          make @9                                             
+<00000195E5F5A5A8>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+SIMPLEXAPP          root's creation                                     
+<00000195E5F5A5A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------

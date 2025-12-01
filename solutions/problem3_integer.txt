@@ -1,0 +1,31 @@
+
+simplexeiffel: system execution failed.
+Following is the set of recorded exceptions:
+
+******************************** Thread exception *****************************
+In thread           Root thread            0x0 (thread id)
+*******************************************************************************
+-------------------------------------------------------------------------------
+Class / Object      Routine                Nature of exception           Effect
+-------------------------------------------------------------------------------
+INTEGER_NUMBER      quotient @5            correct_division:            
+<000001FB78FA7338>                         Postcondition violated.       Fail
+-------------------------------------------------------------------------------
+INTEGER_NUMBER      quotient @5                                         
+<000001FB78FA7338>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+SIMPLEX_PIVOT       pivot @38                                           
+<000001FB78FA3B48>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+SIMPLEX_SOLVER      solve @22                                           
+<000001FB78FA3B18>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+SIMPLEXAPP          run_integer_solver @7                               
+<000001FB78FA05A8>                         Routine failure.              Fail
+-------------------------------------------------------------------------------
+SIMPLEXAPP          make @8                                             
+<000001FB78FA05A8>                         Routine failure.              Rescue
+-------------------------------------------------------------------------------
+SIMPLEXAPP          root's creation                                     
+<000001FB78FA05A8>                         Routine failure.              Exit
+-------------------------------------------------------------------------------
