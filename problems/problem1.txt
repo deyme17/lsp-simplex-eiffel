@@ -1,3 +1,9 @@
+#  c1 c2 c3          | j  up to n
+#               | b1 |
+#  aij*xj <= bi | b2 |
+#               | b3 |
+#               | i up to m3 4
+
 3 4
 2 3 7
 2 1 5
