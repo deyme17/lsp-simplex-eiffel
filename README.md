@@ -176,3 +176,45 @@ end
 - **C#**: Silently produces wrong results ✗
 - **Eiffel**: Crashes with contract violation exception ✓
 - **Conclusion**: DBC exposes design flaws that type systems miss
+
+---
+
+## Testing Methodology
+
+To validate the hypothesis and answer the research questions, we conducted systematic testing using a suite of Linear Programming problems with varying characteristics:
+
+- **Fractional coefficients**: Problems requiring precise division operations
+- **Integer-only data**: Edge cases where rounding might not immediately cause failures
+- **Degenerate cases**: Problems prone to cycling or numerical instability
+- **Invalid inputs**: Testing invariant enforcement (negative b-values)
+- **Multi-dimensional problems**: Complex scenarios with multiple variables and constraints
+
+Each test case was executed in two modes:
+1. **REAL_NUMBER mode**: Expected baseline behavior
+2. **INTEGER_NUMBER mode** (`-i` flag): LSP violation scenario
+
+---
+
+## Experimental Results
+
+| Test Case | REAL_NUMBER | INTEGER_NUMBER | Outcome |
+|-----------|-------------|----------------|---------|
+| Fractional LP | Success | Crash | Postcondition violation |
+| Integer-only LP | Success | Success | Lucky, but unsafe |
+| Fractional mixed | Success | Crash | Pivot failure |
+| Degenerate case | Max-iter stop | Crash | Wrong pivot ratios |
+| Negative b-values | Crash | Crash | Invariant failure |
+| Multi-dimensional LP | Success | Crash | Arithmetic mismatch |
+
+---
+
+## Key Findings
+
+SimplexEiffel confirms:
+
+- Mathematical subset relations do not justify OOP inheritance
+- INTEGER_NUMBER cannot satisfy REAL_NUMBER's semantic contracts
+- Eiffel's Design by Contract makes the violation explicit and debuggable
+- Universal polymorphism is safe only when subtype behavior strictly respects LSP
+
+The system demonstrates how rigorous contract checking protects complex algorithms from hidden numeric failures.
