@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="generator" content="ISE EiffelStudio version 25.02.9.8732 - win64">
+<meta name="description" content="Abstract numeric type - base for all number implementations"/>
+<meta name="keywords" content="Eiffel class"/>
+<meta name="keywords" content="Eiffel class"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+<title>number Chart</title>
+<link rel="stylesheet" href="../default.css" type="text/css">
+<script type="text/javascript" src="../goto.html"></script>
+</head>
+<body>
+<pre></pre><form class="nav" onsubmit="go_to('../',this.c.value);return false;">
+<div class="nav">
+<a class="nav hierarchy" href="../class_list.html">Classes</a>
+<a class="nav hierarchy" href="../cluster_list.html">Clusters</a>
+<a class="nav hierarchy" href="../cluster_hierarchy.html">Cluster hierarchy</a>
+<span class="nav class selected">Chart</span>
+<a class="nav class" href="number_links.html">Relations</a>
+<a class="nav class" href="number.html">Text</a>
+<a class="nav class" href="number_short.html">Contracts</a>
+<span class="nav class goto">Go to: <input name="c" value="number"></span>
+</div></form><pre><span class="ekeyword">deferred</span> <span class="ekeyword">class</span>
+	<a class="eclass" href="../kernel/number_chart.html">NUMBER</a>
+
+<span class="ekeyword">General</span>
+	<span class="eitag">cluster</span><span class="esymbol">:</span> <a class="ecluster" href="../kernel/index.html">kernel</a>
+	<span class="eitag">description</span><span class="esymbol">:</span> <span class="estring">&quot;Abstract numeric type - base for all number implementations&quot;</span>
+
+<span class="ekeyword">Ancestors</span>
+	<span class="neclass">ANY</span>
+
+<span class="ekeyword">Queries</span>
+	<span title="`is_equal' is declared in `Current'"><a class="efeature" href="../kernel/number.html#f_is_equal">is_equal</a> <span class="esymbol">(</span><span class="elocal">other</span><span class="esymbol">:</span> <span class="esymbol">[</span><span class="ekeyword">like</span> <span class="ekeyword">Current</span><span class="esymbol">]</span> <a class="eclass" href="../kernel/number_chart.html">NUMBER</a><span class="esymbol">)</span><span class="esymbol">:</span> <span class="neclass">BOOLEAN</span></span>
+	<span title="`is_greater' is declared in `Current'"><a class="efeature" href="../kernel/number.html#f_is_greater">is_greater</a> <span class="ekeyword">alias</span> <span class="esymbol">&quot;</span><a class="esymbol" href="../kernel/number.html#f_is_greater">&gt;</a><span class="esymbol">&quot;</span> <span class="esymbol">(</span><span class="elocal">other</span><span class="esymbol">:</span> <a class="eclass" href="../kernel/number_chart.html">NUMBER</a><span class="esymbol">)</span><span class="esymbol">:</span> <span class="neclass">BOOLEAN</span></span>
+	<span title="`is_less' is declared in `Current'"><a class="efeature" href="../kernel/number.html#f_is_less">is_less</a> <span class="ekeyword">alias</span> <span class="esymbol">&quot;</span><a class="esymbol" href="../kernel/number.html#f_is_less">&lt;</a><span class="esymbol">&quot;</span> <span class="esymbol">(</span><span class="elocal">other</span><span class="esymbol">:</span> <a class="eclass" href="../kernel/number_chart.html">NUMBER</a><span class="esymbol">)</span><span class="esymbol">:</span> <span class="neclass">BOOLEAN</span></span>
+	<span title="`minus' is declared in `Current'"><a class="efeature" href="../kernel/number.html#f_minus">minus</a> <span class="ekeyword">alias</span> <span class="esymbol">&quot;</span><a class="esymbol" href="../kernel/number.html#f_minus">-</a><span class="esymbol">&quot;</span> <span class="esymbol">(</span><span class="elocal">other</span><span class="esymbol">:</span> <a class="eclass" href="../kernel/number_chart.html">NUMBER</a><span class="esymbol">)</span><span class="esymbol">:</span> <span class="esymbol">[</span><span class="ekeyword">like</span> <span class="ekeyword">Current</span><span class="esymbol">]</span> <a class="eclass" href="../kernel/number_chart.html">NUMBER</a></span>
+	<span title="`out' is declared in `Current'"><a class="efeature" href="../kernel/number.html#f_out">out</a><span class="esymbol">:</span> <span class="neclass">STRING_8</span></span>
+	<span title="`plus' is declared in `Current'"><a class="efeature" href="../kernel/number.html#f_plus">plus</a> <span class="ekeyword">alias</span> <span class="esymbol">&quot;</span><a class="esymbol" href="../kernel/number.html#f_plus">+</a><span class="esymbol">&quot;</span> <span class="esymbol">(</span><span class="elocal">other</span><span class="esymbol">:</span> <a class="eclass" href="../kernel/number_chart.html">NUMBER</a><span class="esymbol">)</span><span class="esymbol">:</span> <span class="esymbol">[</span><span class="ekeyword">like</span> <span class="ekeyword">Current</span><span class="esymbol">]</span> <a class="eclass" href="../kernel/number_chart.html">NUMBER</a></span>
+	<span title="`product' is declared in `Current'"><a class="efeature" href="../kernel/number.html#f_product">product</a> <span class="ekeyword">alias</span> <span class="esymbol">&quot;</span><a class="esymbol" href="../kernel/number.html#f_product">*</a><span class="esymbol">&quot;</span> <span class="esymbol">(</span><span class="elocal">other</span><span class="esymbol">:</span> <a class="eclass" href="../kernel/number_chart.html">NUMBER</a><span class="esymbol">)</span><span class="esymbol">:</span> <span class="esymbol">[</span><span class="ekeyword">like</span> <span class="ekeyword">Current</span><span class="esymbol">]</span> <a class="eclass" href="../kernel/number_chart.html">NUMBER</a></span>
+	<span title="`quotient' is declared in `Current'"><a class="efeature" href="../kernel/number.html#f_quotient">quotient</a> <span class="ekeyword">alias</span> <span class="esymbol">&quot;</span><a class="esymbol" href="../kernel/number.html#f_quotient">/</a><span class="esymbol">&quot;</span> <span class="esymbol">(</span><span class="elocal">other</span><span class="esymbol">:</span> <a class="eclass" href="../kernel/number_chart.html">NUMBER</a><span class="esymbol">)</span><span class="esymbol">:</span> <span class="esymbol">[</span><span class="ekeyword">like</span> <span class="ekeyword">Current</span><span class="esymbol">]</span> <a class="eclass" href="../kernel/number_chart.html">NUMBER</a></span>
+	<span title="`to_double' is declared in `Current'"><a class="efeature" href="../kernel/number.html#f_to_double">to_double</a><span class="esymbol">:</span> <span class="neclass">REAL_64</span></span>
+	<span title="`to_integer' is declared in `Current'"><a class="efeature" href="../kernel/number.html#f_to_integer">to_integer</a><span class="esymbol">:</span> <span class="neclass">INTEGER_32</span></span>
+	<span title="`to_string' is declared in `Current'"><a class="efeature" href="../kernel/number.html#f_to_string">to_string</a><span class="esymbol">:</span> <span class="neclass">STRING_8</span></span>
+	<span title="`value' is declared in `Current'"><a class="efeature" href="../kernel/number.html#f_value">value</a><span class="esymbol">:</span> <span class="neclass">REAL_64</span></span>
+
+</pre><form class="nav" onsubmit="go_to('../',this.c.value);return false;">
+<div class="nav">
+<a class="nav hierarchy" href="../class_list.html">Classes</a>
+<a class="nav hierarchy" href="../cluster_list.html">Clusters</a>
+<a class="nav hierarchy" href="../cluster_hierarchy.html">Cluster hierarchy</a>
+<span class="nav class selected">Chart</span>
+<a class="nav class" href="number_links.html">Relations</a>
+<a class="nav class" href="number.html">Text</a>
+<a class="nav class" href="number_short.html">Contracts</a>
+<span class="nav class goto">Go to: <input name="c" value="number"></span>
+</div></form><pre></pre>
+<p style="text-align:center;">Generated by <a href="http://www.eiffel.com">ISE EiffelStudio</a></p>
+</body>
+</html>

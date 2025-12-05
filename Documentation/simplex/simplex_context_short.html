@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="generator" content="ISE EiffelStudio version 25.02.9.8732 - win64">
+<meta name="description" content="Context for simplex algorithm."/>
+<meta name="keywords" content="Eiffel class"/>
+<meta name="keywords" content="Eiffel class"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+<title>simplex_context Contracts</title>
+<link rel="stylesheet" href="../default.css" type="text/css">
+<script type="text/javascript" src="../goto.html"></script>
+</head>
+<body>
+<pre></pre><form class="nav" onsubmit="go_to('../',this.c.value);return false;">
+<div class="nav">
+<a class="nav hierarchy" href="../class_list.html">Classes</a>
+<a class="nav hierarchy" href="../cluster_list.html">Clusters</a>
+<a class="nav hierarchy" href="../cluster_hierarchy.html">Cluster hierarchy</a>
+<a class="nav class" href="simplex_context_chart.html">Chart</a>
+<a class="nav class" href="simplex_context_links.html">Relations</a>
+<a class="nav class" href="simplex_context.html">Text</a>
+<span class="nav class selected">Contracts</span>
+<span class="nav class goto">Go to: <input name="c" value="simplex_context"></span>
+</div></form><pre><span class="ekeyword">note</span>
+	<span class="eitag">description</span><span class="esymbol">:</span> <span class="estring">&quot;Context for simplex algorithm.&quot;</span>
+
+<span class="ekeyword">class</span> <span class="ekeyword">interface</span>
+	<a class="eclass" href="../simplex/simplex_context_short.html">SIMPLEX_CONTEXT</a> <span class="esymbol">[</span><span class="egeneric">T</span> <span class="esymbol">-&gt;</span> <a class="eclass" href="../kernel/real_number_short.html">REAL_NUMBER</a> <span class="ekeyword">create</span> <a class="efeature" href="../kernel/real_number_short.html#f_default_create">default_create</a> <span class="ekeyword">end</span><span class="esymbol">]</span>
+
+<span class="ekeyword">create</span> 
+	<a class="efeature" href="../simplex/simplex_context_short.html#f_make">make</a>
+
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> factory</span>
+
+	<a name="f_make_zero"></a><a class="efeature" href="../simplex/simplex_context_short.html#f_make_zero">make_zero</a><span class="esymbol">:</span> <span class="egeneric">T</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> state flags</span>
+
+	<a name="f_use_invariants"></a><a class="efeature" href="../simplex/simplex_context_short.html#f_use_invariants">use_invariants</a><span class="esymbol">:</span> <span class="neclass">BOOLEAN</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> dimensions</span>
+
+	<a name="f_num_constraints"></a><a class="efeature" href="../simplex/simplex_context_short.html#f_num_constraints">num_constraints</a><span class="esymbol">:</span> <span class="neclass">INTEGER_32</span>
+
+	<a name="f_num_variables"></a><a class="efeature" href="../simplex/simplex_context_short.html#f_num_variables">num_variables</a><span class="esymbol">:</span> <span class="neclass">INTEGER_32</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> objective function</span>
+
+	<a name="f_c"></a><a class="efeature" href="../simplex/simplex_context_short.html#f_c">c</a><span class="esymbol">:</span> <span class="neclass">HASH_TABLE</span> <span class="esymbol">[</span><span class="egeneric">T</span><span class="esymbol">,</span> <span class="neclass">INTEGER_32</span><span class="esymbol">]</span>
+
+	<a name="f_v"></a><a class="efeature" href="../simplex/simplex_context_short.html#f_v">v</a><span class="esymbol">:</span> <span class="egeneric">T</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> constraints</span>
+
+	<a name="f_b_values"></a><a class="efeature" href="../simplex/simplex_context_short.html#f_b_values">b_values</a><span class="esymbol">:</span> <span class="neclass">HASH_TABLE</span> <span class="esymbol">[</span><span class="egeneric">T</span><span class="esymbol">,</span> <span class="neclass">INTEGER_32</span><span class="esymbol">]</span>
+
+	<a name="f_a"></a><a class="efeature" href="../simplex/simplex_context_short.html#f_a">a</a><span class="esymbol">:</span> <span class="neclass">HASH_TABLE</span> <span class="esymbol">[</span><span class="neclass">HASH_TABLE</span> <span class="esymbol">[</span><span class="egeneric">T</span><span class="esymbol">,</span> <span class="neclass">INTEGER_32</span><span class="esymbol">]</span><span class="esymbol">,</span> <span class="neclass">INTEGER_32</span><span class="esymbol">]</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> basis and nonbasis</span>
+
+	<a name="f_b"></a><a class="efeature" href="../simplex/simplex_context_short.html#f_b">b</a><span class="esymbol">:</span> <span class="neclass">ARRAYED_LIST</span> <span class="esymbol">[</span><span class="neclass">INTEGER_32</span><span class="esymbol">]</span>
+
+	<a name="f_n"></a><a class="efeature" href="../simplex/simplex_context_short.html#f_n">n</a><span class="esymbol">:</span> <span class="neclass">ARRAYED_LIST</span> <span class="esymbol">[</span><span class="neclass">INTEGER_32</span><span class="esymbol">]</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> solution</span>
+
+	<a name="f_x"></a><a class="efeature" href="../simplex/simplex_context_short.html#f_x">x</a><span class="esymbol">:</span> <span class="neclass">ARRAY</span> <span class="esymbol">[</span><span class="egeneric">T</span><span class="esymbol">]</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> setters</span>
+
+	<a name="f_enable_invariants"></a><a class="efeature" href="../simplex/simplex_context_short.html#f_enable_invariants">enable_invariants</a>
+
+	<a name="f_disable_invariants"></a><a class="efeature" href="../simplex/simplex_context_short.html#f_disable_invariants">disable_invariants</a>
+
+	<a name="f_set_dimensions"></a><a class="efeature" href="../simplex/simplex_context_short.html#f_set_dimensions">set_dimensions</a> <span class="esymbol">(</span><span class="elocal">a_m</span><span class="esymbol">,</span> <span class="elocal">a_n</span><span class="esymbol">:</span> <span class="neclass">INTEGER_32</span><span class="esymbol">)</span>
+
+	<a name="f_reset"></a><a class="efeature" href="../simplex/simplex_context_short.html#f_reset">reset</a>
+
+	<a name="f_set_v"></a><a class="efeature" href="../simplex/simplex_context_short.html#f_set_v">set_v</a> <span class="esymbol">(</span><span class="elocal">new_v</span><span class="esymbol">:</span> <span class="egeneric">T</span><span class="esymbol">)</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> helpers</span>
+
+	<a name="f_is_valid_index"></a><a class="efeature" href="../simplex/simplex_context_short.html#f_is_valid_index">is_valid_index</a> <span class="esymbol">(</span><span class="elocal">idx</span><span class="esymbol">:</span> <span class="neclass">INTEGER_32</span><span class="esymbol">)</span><span class="esymbol">:</span> <span class="neclass">BOOLEAN</span>
+
+	<a name="f_is_basic"></a><a class="efeature" href="../simplex/simplex_context_short.html#f_is_basic">is_basic</a> <span class="esymbol">(</span><span class="elocal">idx</span><span class="esymbol">:</span> <span class="neclass">INTEGER_32</span><span class="esymbol">)</span><span class="esymbol">:</span> <span class="neclass">BOOLEAN</span>
+
+	<a name="f_is_nonbasic"></a><a class="efeature" href="../simplex/simplex_context_short.html#f_is_nonbasic">is_nonbasic</a> <span class="esymbol">(</span><span class="elocal">idx</span><span class="esymbol">:</span> <span class="neclass">INTEGER_32</span><span class="esymbol">)</span><span class="esymbol">:</span> <span class="neclass">BOOLEAN</span>
+	
+<span class="ekeyword">invariant</span>
+	<span class="etag">non_negative_dimensions</span><span class="esymbol">:</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_num_constraints">num_constraints</a> <span class="esymbol">&gt;=</span> <span class="enumber">0</span> <span class="ekeyword">and</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_num_variables">num_variables</a> <span class="esymbol">&gt;=</span> <span class="enumber">0</span>
+	<span class="etag">x_size_matches_total</span><span class="esymbol">:</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_x">x</a><span class="edot">.</span><span class="nefeature">count</span> <span class="esymbol">=</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_num_variables">num_variables</a> <span class="esymbol">+</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_num_constraints">num_constraints</a>
+	<span class="etag">c_count_matches_n</span><span class="esymbol">:</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_use_invariants">use_invariants</a> <span class="ekeyword">implies</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_c">c</a><span class="edot">.</span><span class="nefeature">count</span> <span class="esymbol">=</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_num_variables">num_variables</a>
+	<span class="etag">b_count_matches_m</span><span class="esymbol">:</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_use_invariants">use_invariants</a> <span class="ekeyword">implies</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_b_values">b_values</a><span class="edot">.</span><span class="nefeature">count</span> <span class="esymbol">=</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_num_constraints">num_constraints</a>
+	<span class="etag">a_count_matches_m</span><span class="esymbol">:</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_use_invariants">use_invariants</a> <span class="ekeyword">implies</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_a">a</a><span class="edot">.</span><span class="nefeature">count</span> <span class="esymbol">=</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_num_constraints">num_constraints</a>
+	<span class="etag">b_count_matches_m</span><span class="esymbol">:</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_use_invariants">use_invariants</a> <span class="ekeyword">implies</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_b">b</a><span class="edot">.</span><span class="nefeature">count</span> <span class="esymbol">=</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_num_constraints">num_constraints</a>
+	<span class="etag">n_count_matches_n</span><span class="esymbol">:</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_use_invariants">use_invariants</a> <span class="ekeyword">implies</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_n">n</a><span class="edot">.</span><span class="nefeature">count</span> <span class="esymbol">=</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_num_variables">num_variables</a>
+	<span class="etag">basis_and_nonbasis_disjoint</span><span class="esymbol">:</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_use_invariants">use_invariants</a> <span class="ekeyword">implies</span> <span class="esymbol">(</span><span class="ekeyword">across</span>
+			<a class="efeature" href="../simplex/simplex_context_short.html#f_b">b</a> <span class="ekeyword">as</span> bi
+		<span class="ekeyword">all</span>
+			<span class="ekeyword">not</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_n">n</a><span class="edot">.</span><span class="nefeature">has</span><span class="esymbol"> </span><span class="esymbol">(</span><span class="elocal">bi</span><span class="edot">.</span><span class="nefeature">item</span><span class="esymbol">)</span>
+		<span class="ekeyword">end</span><span class="esymbol">)</span>
+	<span class="etag">basis_and_nonbasis_cover_all</span><span class="esymbol">:</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_use_invariants">use_invariants</a> <span class="ekeyword">implies</span> <span class="esymbol">(</span><span class="ekeyword">across</span>
+			<span class="enumber">1</span> <span class="esymbol">|..|</span> <span class="esymbol">(</span><a class="efeature" href="../simplex/simplex_context_short.html#f_num_variables">num_variables</a> <span class="esymbol">+</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_num_constraints">num_constraints</a><span class="esymbol">)</span> <span class="ekeyword">as</span> i
+		<span class="ekeyword">all</span>
+			<a class="efeature" href="../simplex/simplex_context_short.html#f_b">b</a><span class="edot">.</span><span class="nefeature">has</span><span class="esymbol"> </span><span class="esymbol">(</span><span class="elocal">i</span><span class="edot">.</span><span class="nefeature">item</span><span class="esymbol">)</span> <span class="ekeyword">or</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_n">n</a><span class="edot">.</span><span class="nefeature">has</span><span class="esymbol"> </span><span class="esymbol">(</span><span class="elocal">i</span><span class="edot">.</span><span class="nefeature">item</span><span class="esymbol">)</span>
+		<span class="ekeyword">end</span><span class="esymbol">)</span>
+	<span class="etag">all_b_non_negative</span><span class="esymbol">:</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_use_invariants">use_invariants</a> <span class="ekeyword">implies</span> <span class="esymbol">(</span><span class="ekeyword">across</span>
+			<a class="efeature" href="../simplex/simplex_context_short.html#f_b">b</a> <span class="ekeyword">as</span> bi
+		<span class="ekeyword">all</span>
+			<span class="esymbol">(</span><span class="ekeyword">attached</span> <a class="efeature" href="../simplex/simplex_context_short.html#f_b_values">b_values</a> <span class="esymbol">[</span><span class="elocal">bi</span><span class="edot">.</span><span class="nefeature">item</span><span class="esymbol">]</span> <span class="ekeyword">as</span> bv <span class="ekeyword">and then</span> <span class="elocal">bv</span><span class="edot">.</span><a class="efeature" href="../kernel/real_number_short.html#f_value">value</a> <span class="esymbol">&gt;=</span> <span class="enumber">-0.0001</span><span class="esymbol">)</span>
+		<span class="ekeyword">end</span><span class="esymbol">)</span>
+
+<span class="ekeyword">end</span> <span class="ecomment">--</span> <span class="ecomment">class </span><a class="eclass" href="../simplex/simplex_context_short.html">SIMPLEX_CONTEXT</a></pre><form class="nav" onsubmit="go_to('../',this.c.value);return false;">
+<div class="nav">
+<a class="nav hierarchy" href="../class_list.html">Classes</a>
+<a class="nav hierarchy" href="../cluster_list.html">Clusters</a>
+<a class="nav hierarchy" href="../cluster_hierarchy.html">Cluster hierarchy</a>
+<a class="nav class" href="simplex_context_chart.html">Chart</a>
+<a class="nav class" href="simplex_context_links.html">Relations</a>
+<a class="nav class" href="simplex_context.html">Text</a>
+<span class="nav class selected">Contracts</span>
+<span class="nav class goto">Go to: <input name="c" value="simplex_context"></span>
+</div></form><pre></pre>
+<p style="text-align:center;">Generated by <a href="http://www.eiffel.com">ISE EiffelStudio</a></p>
+</body>
+</html>
+

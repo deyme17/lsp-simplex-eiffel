@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="generator" content="ISE EiffelStudio version 25.02.9.8732 - win64">
+<meta name="description" content="Input/Output for SimplexM: read problem from STDIN"/>
+<meta name="keywords" content="Eiffel class"/>
+<meta name="keywords" content="Eiffel class"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+<title>simplex_io Text</title>
+<link rel="stylesheet" href="../default.css" type="text/css">
+<script type="text/javascript" src="../goto.html"></script>
+</head>
+<body>
+<pre></pre><form class="nav" onsubmit="go_to('../',this.c.value);return false;">
+<div class="nav">
+<a class="nav hierarchy" href="../class_list.html">Classes</a>
+<a class="nav hierarchy" href="../cluster_list.html">Clusters</a>
+<a class="nav hierarchy" href="../cluster_hierarchy.html">Cluster hierarchy</a>
+<a class="nav class" href="simplex_io_chart.html">Chart</a>
+<a class="nav class" href="simplex_io_links.html">Relations</a>
+<span class="nav class selected">Text</span>
+<a class="nav class" href="simplex_io_short.html">Contracts</a>
+<span class="nav class goto">Go to: <input name="c" value="simplex_io"></span>
+</div></form><pre><span class="ekeyword">note</span>
+	<span class="eitag">description</span><span class="esymbol">:</span> <span class="estring">&quot;Input/Output for SimplexM: read problem from STDIN&quot;</span>
+
+<span class="ekeyword">class</span> 
+	<a class="eclass" href="../simplex/simplex_io.html">SIMPLEX_IO</a> <span class="esymbol">[</span><span class="egeneric">T</span> <span class="esymbol">-&gt;</span> <a class="eclass" href="../kernel/real_number.html">REAL_NUMBER</a> <span class="ekeyword">create</span> <a class="efeature" href="../kernel/real_number.html#f_default_create">default_create</a><span class="esymbol">,</span> <a class="efeature" href="../kernel/real_number.html#f_make">make</a> <span class="ekeyword">end</span><span class="esymbol">]</span>
+
+<span class="ekeyword">inherit</span>
+	<span class="neclass">EXCEPTIONS</span>
+		<span class="ekeyword">redefine</span>
+			<a class="efeature" href="../simplex/simplex_io.html#f_out">out</a>
+		<span class="ekeyword">end</span>
+
+<span class="ekeyword">create</span> 
+	<a class="efeature" href="../simplex/simplex_io.html#f_make">make</a>
+
+<span class="ekeyword">feature</span> <span class="esymbol">{</span>NONE<span class="esymbol">}</span> <span class="ecomment">--</span><span class="ecomment"> constructor</span>
+
+	<a name="f_make"></a><a class="efeature" href="../simplex/simplex_io.html#f_make">make</a> <span class="esymbol">(</span><span class="elocal">a_context</span><span class="esymbol">:</span> <a class="eclass" href="../simplex/simplex_context.html">SIMPLEX_CONTEXT</a> <span class="esymbol">[</span><span class="egeneric">T</span><span class="esymbol">]</span><span class="esymbol">;</span> <span class="elocal">a_separator</span><span class="esymbol">:</span> <span class="neclass">CHARACTER_8</span><span class="esymbol">;</span> <span class="elocal">a_debug</span><span class="esymbol">:</span> <span class="neclass">BOOLEAN</span><span class="esymbol">)</span>
+		<span class="ekeyword">do</span>
+			<a class="efeature" href="../simplex/simplex_io.html#f_context">context</a> <span class="esymbol">:=</span> <span class="elocal">a_context</span>
+			<a class="efeature" href="../simplex/simplex_io.html#f_separator">separator</a> <span class="esymbol">:=</span> <span class="elocal">a_separator</span>
+			<a class="efeature" href="../simplex/simplex_io.html#f_debug_mode">debug_mode</a> <span class="esymbol">:=</span> <span class="elocal">a_debug</span>
+			<a class="efeature" href="../simplex/simplex_io.html#f_line_number">line_number</a> <span class="esymbol">:=</span> <span class="enumber">0</span>
+			<span class="ekeyword">create</span> <a class="efeature" href="../simplex/simplex_io.html#f_last_line">last_line</a><span class="edot">.</span><span class="nefeature">make_empty</span>
+		<span class="ekeyword">end</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> getters</span>
+
+	<a name="f_context"></a><a class="efeature" href="../simplex/simplex_io.html#f_context">context</a><span class="esymbol">:</span> <a class="eclass" href="../simplex/simplex_context.html">SIMPLEX_CONTEXT</a> <span class="esymbol">[</span><span class="egeneric">T</span><span class="esymbol">]</span>
+
+	<a name="f_separator"></a><a class="efeature" href="../simplex/simplex_io.html#f_separator">separator</a><span class="esymbol">:</span> <span class="neclass">CHARACTER_8</span>
+
+	<a name="f_debug_mode"></a><a class="efeature" href="../simplex/simplex_io.html#f_debug_mode">debug_mode</a><span class="esymbol">:</span> <span class="neclass">BOOLEAN</span>
+
+	<a name="f_line_number"></a><a class="efeature" href="../simplex/simplex_io.html#f_line_number">line_number</a><span class="esymbol">:</span> <span class="neclass">INTEGER_32</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> operations</span>
+
+	<a name="f_read_from_stdin"></a><a class="efeature" href="../simplex/simplex_io.html#f_read_from_stdin">read_from_stdin</a><span class="esymbol">:</span> <span class="neclass">BOOLEAN</span>
+		<span class="ekeyword">local</span>
+			<span class="elocal">l_line</span><span class="esymbol">:</span> <span class="neclass">STRING_8</span>
+			<span class="elocal">l_fields</span><span class="esymbol">:</span> <span class="neclass">LIST</span> <span class="esymbol">[</span><span class="neclass">STRING_8</span><span class="esymbol">]</span>
+			<span class="elocal">l_a_row</span><span class="esymbol">:</span> <span class="neclass">HASH_TABLE</span> <span class="esymbol">[</span><span class="egeneric">T</span><span class="esymbol">,</span> <span class="neclass">INTEGER_32</span><span class="esymbol">]</span>
+			<span class="elocal">l_b</span><span class="esymbol">:</span> <span class="egeneric">T</span>
+			<span class="elocal">i</span><span class="esymbol">:</span> <span class="neclass">INTEGER_32</span>
+			<span class="elocal">temp_m</span><span class="esymbol">:</span> <span class="neclass">INTEGER_32</span>
+		<span class="ekeyword">do</span>
+			<span class="ekeyword">Result</span> <span class="esymbol">:=</span> <span class="ekeyword">True</span>
+			<a class="efeature" href="../simplex/simplex_io.html#f_line_number">line_number</a> <span class="esymbol">:=</span> <span class="enumber">0</span>
+			<span class="ekeyword">if</span> <span class="ekeyword">not</span> <a class="efeature" href="../simplex/simplex_io.html#f_read_line">read_line</a> <span class="ekeyword">then</span>
+				<span class="ekeyword">Result</span> <span class="esymbol">:=</span> <span class="ekeyword">False</span>
+			<span class="ekeyword">else</span>
+				<span class="elocal">l_line</span> <span class="esymbol">:=</span> <a class="efeature" href="../simplex/simplex_io.html#f_last_line">last_line</a>
+				<span class="elocal">l_fields</span> <span class="esymbol">:=</span> <span class="elocal">l_line</span><span class="edot">.</span><span class="nefeature">split</span><span class="esymbol"> </span><span class="esymbol">(</span><a class="efeature" href="../simplex/simplex_io.html#f_separator">separator</a><span class="edot">.</span><span class="nefeature">to_character_32</span><span class="esymbol">)</span>
+				<a class="efeature" href="../simplex/simplex_io.html#f_clean_fields">clean_fields</a><span class="esymbol"> </span><span class="esymbol">(</span><span class="elocal">l_fields</span><span class="esymbol">)</span>
+				<span class="ekeyword">if</span> <span class="elocal">l_fields</span><span class="edot">.</span><span class="nefeature">is_empty</span> <span class="ekeyword">then</span>
+					<a class="efeature" href="../simplex/simplex_io.html#f_log_error">log_error</a><span class="esymbol"> </span><span class="esymbol">(</span>&quot;Empty objective line&quot;<span class="esymbol">)</span>
+					<span class="ekeyword">Result</span> <span class="esymbol">:=</span> <span class="ekeyword">False</span>
+				<span class="ekeyword">else</span>
+					<a class="efeature" href="../simplex/simplex_io.html#f_context">context</a><span class="edot">.</span><a class="efeature" href="../simplex/simplex_context.html#f_set_dimensions">set_dimensions</a><span class="esymbol"> </span><span class="esymbol">(</span><span class="enumber">0</span><span class="esymbol">,</span> <span class="elocal">l_fields</span><span class="edot">.</span><span class="nefeature">count</span><span class="esymbol">)</span>
+					<span class="ekeyword">across</span>
+						<span class="enumber">1</span> <span class="esymbol">|..|</span> <span class="elocal">l_fields</span><span class="edot">.</span><span class="nefeature">count</span> <span class="ekeyword">as</span> ic
+					<span class="ekeyword">loop</span>
+						<a class="efeature" href="../simplex/simplex_io.html#f_context">context</a><span class="edot">.</span><a class="efeature" href="../simplex/simplex_context.html#f_c">c</a><span class="edot">.</span><span class="nefeature">put</span><span class="esymbol"> </span><span class="esymbol">(</span><a class="efeature" href="../simplex/simplex_io.html#f_parse_value">parse_value</a><span class="esymbol"> </span><span class="esymbol">(</span><span class="elocal">l_fields</span> <span class="esymbol">[</span><span class="elocal">ic</span><span class="edot">.</span><span class="nefeature">item</span><span class="esymbol">]</span><span class="esymbol">)</span><span class="esymbol">,</span> <span class="elocal">ic</span><span class="edot">.</span><span class="nefeature">item</span><span class="esymbol">)</span><span class="esymbol">;</span>
+						<a class="efeature" href="../simplex/simplex_io.html#f_context">context</a><span class="edot">.</span><a class="efeature" href="../simplex/simplex_context.html#f_n">n</a><span class="edot">.</span><span class="nefeature">extend</span><span class="esymbol"> </span><span class="esymbol">(</span><span class="elocal">ic</span><span class="edot">.</span><span class="nefeature">item</span><span class="esymbol">)</span>
+					<span class="ekeyword">end</span>
+				<span class="ekeyword">end</span>
+			<span class="ekeyword">end</span>
+			<span class="ekeyword">if</span> <span class="ekeyword">Result</span> <span class="ekeyword">then</span>
+				<span class="elocal">temp_m</span> <span class="esymbol">:=</span> <span class="enumber">0</span>
+				<span class="ekeyword">from</span>
+					<span class="elocal">i</span> <span class="esymbol">:=</span> <span class="enumber">1</span>
+				<span class="ekeyword">until</span>
+					<span class="ekeyword">not</span> <a class="efeature" href="../simplex/simplex_io.html#f_read_line">read_line</a> <span class="ekeyword">or</span> <span class="ekeyword">not</span> <span class="ekeyword">Result</span>
+				<span class="ekeyword">loop</span>
+					<span class="elocal">l_line</span> <span class="esymbol">:=</span> <a class="efeature" href="../simplex/simplex_io.html#f_last_line">last_line</a>
+					<span class="elocal">l_fields</span> <span class="esymbol">:=</span> <span class="elocal">l_line</span><span class="edot">.</span><span class="nefeature">split</span><span class="esymbol"> </span><span class="esymbol">(</span><a class="efeature" href="../simplex/simplex_io.html#f_separator">separator</a><span class="edot">.</span><span class="nefeature">to_character_32</span><span class="esymbol">)</span>
+					<a class="efeature" href="../simplex/simplex_io.html#f_clean_fields">clean_fields</a><span class="esymbol"> </span><span class="esymbol">(</span><span class="elocal">l_fields</span><span class="esymbol">)</span>
+					<span class="ekeyword">if</span> <span class="ekeyword">not</span> <span class="elocal">l_fields</span><span class="edot">.</span><span class="nefeature">is_empty</span> <span class="ekeyword">then</span>
+						<span class="ekeyword">if</span> <span class="elocal">l_fields</span><span class="edot">.</span><span class="nefeature">count</span> <span class="esymbol">/=</span> <a class="efeature" href="../simplex/simplex_io.html#f_context">context</a><span class="edot">.</span><a class="efeature" href="../simplex/simplex_context.html#f_num_variables">num_variables</a> <span class="esymbol">+</span> <span class="enumber">1</span> <span class="ekeyword">then</span>
+							<a class="efeature" href="../simplex/simplex_io.html#f_log_error">log_error</a><span class="esymbol"> </span><span class="esymbol">(</span>&quot;Row &quot; <span class="esymbol">+</span> <span class="elocal">i</span><span class="edot">.</span><span class="nefeature">out</span> <span class="esymbol">+</span> &quot;: expected &quot; <span class="esymbol">+</span> <span class="esymbol">(</span><a class="efeature" href="../simplex/simplex_io.html#f_context">context</a><span class="edot">.</span><a class="efeature" href="../simplex/simplex_context.html#f_num_variables">num_variables</a> <span class="esymbol">+</span> <span class="enumber">1</span><span class="esymbol">)</span><span class="edot">.</span><span class="nefeature">out</span> <span class="esymbol">+</span> &quot; values, got &quot; <span class="esymbol">+</span> <span class="elocal">l_fields</span><span class="edot">.</span><span class="nefeature">count</span><span class="edot">.</span><span class="nefeature">out</span><span class="esymbol">)</span>
+							<span class="ekeyword">Result</span> <span class="esymbol">:=</span> <span class="ekeyword">False</span>
+						<span class="ekeyword">else</span>
+							<span class="ekeyword">create</span> <span class="elocal">l_a_row</span><span class="edot">.</span><span class="nefeature">make</span><span class="esymbol"> </span><span class="esymbol">(</span><span class="enumber">5</span><span class="esymbol">)</span>
+							<span class="ekeyword">across</span>
+								<span class="enumber">1</span> <span class="esymbol">|..|</span> <a class="efeature" href="../simplex/simplex_io.html#f_context">context</a><span class="edot">.</span><a class="efeature" href="../simplex/simplex_context.html#f_num_variables">num_variables</a> <span class="ekeyword">as</span> j
+							<span class="ekeyword">loop</span>
+								<span class="elocal">l_a_row</span><span class="edot">.</span><span class="nefeature">put</span><span class="esymbol"> </span><span class="esymbol">(</span><a class="efeature" href="../simplex/simplex_io.html#f_parse_value">parse_value</a><span class="esymbol"> </span><span class="esymbol">(</span><span class="elocal">l_fields</span> <span class="esymbol">[</span><span class="elocal">j</span><span class="edot">.</span><span class="nefeature">item</span><span class="esymbol">]</span><span class="esymbol">)</span><span class="esymbol">,</span> <span class="elocal">j</span><span class="edot">.</span><span class="nefeature">item</span><span class="esymbol">)</span>
+							<span class="ekeyword">end</span>
+							<span class="elocal">l_b</span> <span class="esymbol">:=</span> <a class="efeature" href="../simplex/simplex_io.html#f_parse_value">parse_value</a><span class="esymbol"> </span><span class="esymbol">(</span><span class="elocal">l_fields</span> <span class="esymbol">[</span><span class="elocal">l_fields</span><span class="edot">.</span><span class="nefeature">count</span><span class="esymbol">]</span><span class="esymbol">)</span>
+							<span class="ekeyword">if</span> <span class="elocal">i</span> <span class="esymbol">=</span> <span class="enumber">1</span> <span class="ekeyword">then</span>
+								<a class="efeature" href="../simplex/simplex_io.html#f_context">context</a><span class="edot">.</span><a class="efeature" href="../simplex/simplex_context.html#f_set_dimensions">set_dimensions</a><span class="esymbol"> </span><span class="esymbol">(</span><span class="enumber">0</span><span class="esymbol">,</span> <a class="efeature" href="../simplex/simplex_io.html#f_context">context</a><span class="edot">.</span><a class="efeature" href="../simplex/simplex_context.html#f_num_variables">num_variables</a><span class="esymbol">)</span>
+							<span class="ekeyword">end</span>
+							<span class="elocal">temp_m</span> <span class="esymbol">:=</span> <span class="elocal">temp_m</span> <span class="esymbol">+</span> <span class="enumber">1</span><span class="esymbol">;</span>
+							<a class="efeature" href="../simplex/simplex_io.html#f_context">context</a><span class="edot">.</span><a class="efeature" href="../simplex/simplex_context.html#f_a">a</a><span class="edot">.</span><span class="nefeature">put</span><span class="esymbol"> </span><span class="esymbol">(</span><span class="elocal">l_a_row</span><span class="esymbol">,</span> <a class="efeature" href="../simplex/simplex_io.html#f_context">context</a><span class="edot">.</span><a class="efeature" href="../simplex/simplex_context.html#f_num_variables">num_variables</a> <span class="esymbol">+</span> <span class="elocal">temp_m</span><span class="esymbol">)</span><span class="esymbol">;</span>
+							<a class="efeature" href="../simplex/simplex_io.html#f_context">context</a><span class="edot">.</span><a class="efeature" href="../simplex/simplex_context.html#f_b_values">b_values</a><span class="edot">.</span><span class="nefeature">put</span><span class="esymbol"> </span><span class="esymbol">(</span><span class="elocal">l_b</span><span class="esymbol">,</span> <a class="efeature" href="../simplex/simplex_io.html#f_context">context</a><span class="edot">.</span><a class="efeature" href="../simplex/simplex_context.html#f_num_variables">num_variables</a> <span class="esymbol">+</span> <span class="elocal">temp_m</span><span class="esymbol">)</span><span class="esymbol">;</span>
+							<a class="efeature" href="../simplex/simplex_io.html#f_context">context</a><span class="edot">.</span><a class="efeature" href="../simplex/simplex_context.html#f_b">b</a><span class="edot">.</span><span class="nefeature">extend</span><span class="esymbol"> </span><span class="esymbol">(</span><a class="efeature" href="../simplex/simplex_io.html#f_context">context</a><span class="edot">.</span><a class="efeature" href="../simplex/simplex_context.html#f_num_variables">num_variables</a> <span class="esymbol">+</span> <span class="elocal">temp_m</span><span class="esymbol">)</span>
+						<span class="ekeyword">end</span>
+						<span class="elocal">i</span> <span class="esymbol">:=</span> <span class="elocal">i</span> <span class="esymbol">+</span> <span class="enumber">1</span>
+					<span class="ekeyword">end</span>
+				<span class="ekeyword">end</span>
+			<span class="ekeyword">end</span>
+			<span class="ekeyword">if</span> <span class="ekeyword">Result</span> <span class="ekeyword">then</span>
+				<a class="efeature" href="../simplex/simplex_io.html#f_context">context</a><span class="edot">.</span><a class="efeature" href="../simplex/simplex_context.html#f_set_dimensions">set_dimensions</a><span class="esymbol"> </span><span class="esymbol">(</span><span class="elocal">temp_m</span><span class="esymbol">,</span> <a class="efeature" href="../simplex/simplex_io.html#f_context">context</a><span class="edot">.</span><a class="efeature" href="../simplex/simplex_context.html#f_num_variables">num_variables</a><span class="esymbol">)</span><span class="esymbol">;</span>
+				<a class="efeature" href="../simplex/simplex_io.html#f_context">context</a><span class="edot">.</span><a class="efeature" href="../simplex/simplex_context.html#f_enable_invariants">enable_invariants</a>
+			<span class="ekeyword">end</span>
+		<span class="ekeyword">end</span>
+	
+<span class="ekeyword">feature</span> <span class="esymbol">{</span>NONE<span class="esymbol">}</span> <span class="ecomment">--</span><span class="ecomment"> implementation</span>
+
+	<a name="f_last_line"></a><a class="efeature" href="../simplex/simplex_io.html#f_last_line">last_line</a><span class="esymbol">:</span> <span class="neclass">STRING_8</span>
+
+	<a name="f_read_line"></a><a class="efeature" href="../simplex/simplex_io.html#f_read_line">read_line</a><span class="esymbol">:</span> <span class="neclass">BOOLEAN</span>
+		<span class="ekeyword">local</span>
+			<span class="elocal">l_line</span><span class="esymbol">:</span> <span class="neclass">STRING_8</span>
+			<span class="elocal">done</span><span class="esymbol">:</span> <span class="neclass">BOOLEAN</span>
+		<span class="ekeyword">do</span>
+			<span class="ekeyword">from</span>
+				<span class="elocal">done</span> <span class="esymbol">:=</span> <span class="ekeyword">False</span>
+				<span class="ekeyword">Result</span> <span class="esymbol">:=</span> <span class="ekeyword">False</span>
+			<span class="ekeyword">until</span>
+				<span class="elocal">done</span>
+			<span class="ekeyword">loop</span>
+				<span class="nefeature">Io</span><span class="edot">.</span><span class="nefeature">read_line</span>
+				<span class="ekeyword">if</span> <span class="nefeature">Io</span><span class="edot">.</span><span class="nefeature">Input</span><span class="edot">.</span><span class="nefeature">end_of_file</span> <span class="ekeyword">and</span> <span class="esymbol">(</span><span class="nefeature">Io</span><span class="edot">.</span><span class="nefeature">last_string</span> <span class="esymbol">=</span> <span class="ekeyword">Void</span> <span class="ekeyword">or else</span> <span class="nefeature">Io</span><span class="edot">.</span><span class="nefeature">last_string</span><span class="edot">.</span><span class="nefeature">is_empty</span><span class="esymbol">)</span> <span class="ekeyword">then</span>
+					<span class="elocal">done</span> <span class="esymbol">:=</span> <span class="ekeyword">True</span>
+					<span class="ekeyword">Result</span> <span class="esymbol">:=</span> <span class="ekeyword">False</span>
+				<span class="ekeyword">elseif</span> <span class="nefeature">Io</span><span class="edot">.</span><span class="nefeature">last_string</span> <span class="esymbol">=</span> <span class="ekeyword">Void</span> <span class="ekeyword">then</span>
+					<span class="elocal">done</span> <span class="esymbol">:=</span> <span class="ekeyword">True</span>
+					<span class="ekeyword">Result</span> <span class="esymbol">:=</span> <span class="ekeyword">False</span>
+				<span class="ekeyword">else</span>
+					<a class="efeature" href="../simplex/simplex_io.html#f_line_number">line_number</a> <span class="esymbol">:=</span> <a class="efeature" href="../simplex/simplex_io.html#f_line_number">line_number</a> <span class="esymbol">+</span> <span class="enumber">1</span>
+					<span class="elocal">l_line</span> <span class="esymbol">:=</span> <span class="nefeature">Io</span><span class="edot">.</span><span class="nefeature">last_string</span><span class="edot">.</span><span class="nefeature">twin</span><span class="esymbol">;</span>
+					<span class="elocal">l_line</span><span class="edot">.</span><span class="nefeature">left_adjust</span><span class="esymbol">;</span>
+					<span class="elocal">l_line</span><span class="edot">.</span><span class="nefeature">right_adjust</span>
+					<span class="ekeyword">if</span> <span class="ekeyword">not</span> <span class="elocal">l_line</span><span class="edot">.</span><span class="nefeature">is_empty</span> <span class="ekeyword">and then</span> <span class="ekeyword">not</span> <span class="elocal">l_line</span><span class="edot">.</span><span class="nefeature">starts_with</span><span class="esymbol"> </span><span class="esymbol">(</span>&quot;#&quot;<span class="esymbol">)</span> <span class="ekeyword">then</span>
+						<a class="efeature" href="../simplex/simplex_io.html#f_last_line">last_line</a> <span class="esymbol">:=</span> <span class="elocal">l_line</span>
+						<span class="ekeyword">Result</span> <span class="esymbol">:=</span> <span class="ekeyword">True</span>
+						<span class="elocal">done</span> <span class="esymbol">:=</span> <span class="ekeyword">True</span>
+					<span class="ekeyword">elseif</span> <span class="nefeature">Io</span><span class="edot">.</span><span class="nefeature">Input</span><span class="edot">.</span><span class="nefeature">end_of_file</span> <span class="ekeyword">then</span>
+						<span class="elocal">done</span> <span class="esymbol">:=</span> <span class="ekeyword">True</span>
+						<span class="ekeyword">Result</span> <span class="esymbol">:=</span> <span class="ekeyword">False</span>
+					<span class="ekeyword">end</span>
+				<span class="ekeyword">end</span>
+			<span class="ekeyword">end</span>
+		<span class="ekeyword">end</span>
+
+	<a name="f_clean_fields"></a><a class="efeature" href="../simplex/simplex_io.html#f_clean_fields">clean_fields</a> <span class="esymbol">(</span><span class="elocal">fields</span><span class="esymbol">:</span> <span class="neclass">LIST</span> <span class="esymbol">[</span><span class="neclass">STRING_8</span><span class="esymbol">]</span><span class="esymbol">)</span>
+			<span class="ecomment">--</span><span class="ecomment"> remove empty strings and trim whitespace</span>
+		<span class="ekeyword">do</span>
+			<span class="ekeyword">from</span>
+				<span class="elocal">fields</span><span class="edot">.</span><span class="nefeature">start</span>
+			<span class="ekeyword">until</span>
+				<span class="elocal">fields</span><span class="edot">.</span><span class="nefeature">after</span>
+			<span class="ekeyword">loop</span>
+				<span class="elocal">fields</span><span class="edot">.</span><span class="nefeature">item</span><span class="edot">.</span><span class="nefeature">left_adjust</span><span class="esymbol">;</span>
+				<span class="elocal">fields</span><span class="edot">.</span><span class="nefeature">item</span><span class="edot">.</span><span class="nefeature">right_adjust</span>
+				<span class="ekeyword">if</span> <span class="elocal">fields</span><span class="edot">.</span><span class="nefeature">item</span><span class="edot">.</span><span class="nefeature">is_empty</span> <span class="ekeyword">then</span>
+					<span class="elocal">fields</span><span class="edot">.</span><span class="nefeature">remove</span>
+				<span class="ekeyword">else</span>
+					<span class="elocal">fields</span><span class="edot">.</span><span class="nefeature">forth</span>
+				<span class="ekeyword">end</span>
+			<span class="ekeyword">end</span>
+		<span class="ekeyword">end</span>
+
+	<a name="f_parse_value"></a><a class="efeature" href="../simplex/simplex_io.html#f_parse_value">parse_value</a> <span class="esymbol">(</span><span class="elocal">s</span><span class="esymbol">:</span> <span class="neclass">STRING_8</span><span class="esymbol">)</span><span class="esymbol">:</span> <span class="egeneric">T</span>
+		<span class="ekeyword">local</span>
+			<span class="elocal">l_double</span><span class="esymbol">:</span> <span class="neclass">REAL_64</span>
+		<span class="ekeyword">do</span>
+			<span class="ekeyword">if</span> <span class="elocal">s</span><span class="edot">.</span><span class="nefeature">is_double</span> <span class="ekeyword">then</span>
+				<span class="elocal">l_double</span> <span class="esymbol">:=</span> <span class="elocal">s</span><span class="edot">.</span><span class="nefeature">to_double</span>
+				<span class="ekeyword">create</span> <span class="ekeyword">Result</span><span class="edot">.</span><a class="efeature" href="../kernel/real_number.html#f_make">make</a><span class="esymbol"> </span><span class="esymbol">(</span><span class="elocal">l_double</span><span class="esymbol">)</span>
+			<span class="ekeyword">else</span>
+				<span class="nefeature">print</span><span class="esymbol"> </span><span class="esymbol">(</span>&quot;[FATAL ERROR] Input value '&quot; <span class="esymbol">+</span> <span class="elocal">s</span> <span class="esymbol">+</span> &quot;' is not a number.%N&quot;<span class="esymbol">)</span>
+				<span class="nefeature">die</span><span class="esymbol"> </span><span class="esymbol">(</span><span class="enumber">1</span><span class="esymbol">)</span>
+				<span class="ekeyword">create</span> <span class="ekeyword">Result</span><span class="edot">.</span><a class="efeature" href="../kernel/real_number.html#f_default_create">default_create</a>
+			<span class="ekeyword">end</span>
+		<span class="ekeyword">end</span>
+
+	<a name="f_log_error"></a><a class="efeature" href="../simplex/simplex_io.html#f_log_error">log_error</a> <span class="esymbol">(</span><span class="elocal">msg</span><span class="esymbol">:</span> <span class="neclass">STRING_8</span><span class="esymbol">)</span>
+		<span class="ekeyword">do</span>
+			<span class="nefeature">print</span><span class="esymbol"> </span><span class="esymbol">(</span>&quot;[ERROR] Line &quot; <span class="esymbol">+</span> <a class="efeature" href="../simplex/simplex_io.html#f_line_number">line_number</a><span class="edot">.</span><span class="nefeature">out</span> <span class="esymbol">+</span> &quot;: &quot; <span class="esymbol">+</span> <span class="elocal">msg</span> <span class="esymbol">+</span> &quot;%N&quot;<span class="esymbol">)</span>
+		<span class="ekeyword">end</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> print</span>
+
+	<a name="f_out"></a><a class="efeature" href="../simplex/simplex_io.html#f_out">out</a><span class="esymbol">:</span> <span class="neclass">STRING_8</span>
+			<span class="ecomment">--</span><span class="ecomment"> New string containing terse printable representation</span>
+			<span class="ecomment">--</span><span class="ecomment"> of current object</span>
+		<span class="ekeyword">do</span>
+			<span class="ekeyword">Result</span> <span class="esymbol">:=</span> &quot;SIMPLEX_IO[sep='&quot; <span class="esymbol">+</span> <a class="efeature" href="../simplex/simplex_io.html#f_separator">separator</a><span class="edot">.</span><span class="nefeature">out</span> <span class="esymbol">+</span> &quot;', debug=&quot; <span class="esymbol">+</span> <a class="efeature" href="../simplex/simplex_io.html#f_debug_mode">debug_mode</a><span class="edot">.</span><span class="nefeature">out</span> <span class="esymbol">+</span> &quot;]&quot;
+		<span class="ekeyword">end</span>
+	
+<span class="ekeyword">end</span> <span class="ecomment">--</span> <span class="ecomment">class </span><a class="eclass" href="../simplex/simplex_io.html">SIMPLEX_IO</a></pre><form class="nav" onsubmit="go_to('../',this.c.value);return false;">
+<div class="nav">
+<a class="nav hierarchy" href="../class_list.html">Classes</a>
+<a class="nav hierarchy" href="../cluster_list.html">Clusters</a>
+<a class="nav hierarchy" href="../cluster_hierarchy.html">Cluster hierarchy</a>
+<a class="nav class" href="simplex_io_chart.html">Chart</a>
+<a class="nav class" href="simplex_io_links.html">Relations</a>
+<span class="nav class selected">Text</span>
+<a class="nav class" href="simplex_io_short.html">Contracts</a>
+<span class="nav class goto">Go to: <input name="c" value="simplex_io"></span>
+</div></form><pre></pre>
+<p style="text-align:center;">Generated by <a href="http://www.eiffel.com">ISE EiffelStudio</a></p>
+</body>
+</html>
+

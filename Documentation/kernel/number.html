@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="generator" content="ISE EiffelStudio version 25.02.9.8732 - win64">
+<meta name="description" content="Abstract numeric type - base for all number implementations"/>
+<meta name="keywords" content="Eiffel class"/>
+<meta name="keywords" content="Eiffel class"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+<title>number Text</title>
+<link rel="stylesheet" href="../default.css" type="text/css">
+<script type="text/javascript" src="../goto.html"></script>
+</head>
+<body>
+<pre></pre><form class="nav" onsubmit="go_to('../',this.c.value);return false;">
+<div class="nav">
+<a class="nav hierarchy" href="../class_list.html">Classes</a>
+<a class="nav hierarchy" href="../cluster_list.html">Clusters</a>
+<a class="nav hierarchy" href="../cluster_hierarchy.html">Cluster hierarchy</a>
+<a class="nav class" href="number_chart.html">Chart</a>
+<a class="nav class" href="number_links.html">Relations</a>
+<span class="nav class selected">Text</span>
+<a class="nav class" href="number_short.html">Contracts</a>
+<span class="nav class goto">Go to: <input name="c" value="number"></span>
+</div></form><pre><span class="ekeyword">note</span>
+	<span class="eitag">description</span><span class="esymbol">:</span> <span class="estring">&quot;Abstract numeric type - base for all number implementations&quot;</span>
+
+<span class="ekeyword">deferred</span> <span class="ekeyword">class</span> 
+	<a class="eclass" href="../kernel/number.html">NUMBER</a>
+
+<span class="ekeyword">inherit</span>
+	<span class="neclass">ANY</span>
+		<span class="ekeyword">redefine</span>
+			<a class="efeature" href="../kernel/number.html#f_out">out</a><span class="esymbol">,</span>
+			<a class="efeature" href="../kernel/number.html#f_is_equal">is_equal</a>
+		<span class="ekeyword">end</span>
+
+<span class="ekeyword">feature</span> 
+
+	<a name="f_value"></a><a class="efeature" href="../kernel/number.html#f_value">value</a><span class="esymbol">:</span> <span class="neclass">REAL_64</span>
+		<span class="ekeyword">deferred</span>
+		<span class="ekeyword">end</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> comparison</span>
+
+	<a name="f_is_less"></a><a class="efeature" href="../kernel/number.html#f_is_less">is_less</a> <span class="ekeyword">alias</span> <span class="esymbol">&quot;</span><a class="esymbol" href="../kernel/number.html#f_is_less">&lt;</a><span class="esymbol">&quot;</span> <span class="esymbol">(</span><span class="elocal">other</span><span class="esymbol">:</span> <a class="eclass" href="../kernel/number.html">NUMBER</a><span class="esymbol">)</span><span class="esymbol">:</span> <span class="neclass">BOOLEAN</span>
+		<span class="ekeyword">require</span>
+			<span class="etag">other_exists</span><span class="esymbol">:</span> <span class="elocal">other</span> <span class="esymbol">/=</span> <span class="ekeyword">Void</span>
+		<span class="ekeyword">do</span>
+			<span class="ekeyword">Result</span> <span class="esymbol">:=</span> <a class="efeature" href="../kernel/number.html#f_value">value</a> <span class="esymbol">&lt;</span> <span class="elocal">other</span><span class="edot">.</span><a class="efeature" href="../kernel/number.html#f_value">value</a>
+		<span class="ekeyword">ensure</span>
+			<span class="etag">definition</span><span class="esymbol">:</span> <span class="ekeyword">Result</span> <span class="esymbol">=</span> <span class="esymbol">(</span><a class="efeature" href="../kernel/number.html#f_value">value</a> <span class="esymbol">&lt;</span> <span class="elocal">other</span><span class="edot">.</span><a class="efeature" href="../kernel/number.html#f_value">value</a><span class="esymbol">)</span>
+		<span class="ekeyword">end</span>
+
+	<a name="f_is_greater"></a><a class="efeature" href="../kernel/number.html#f_is_greater">is_greater</a> <span class="ekeyword">alias</span> <span class="esymbol">&quot;</span><a class="esymbol" href="../kernel/number.html#f_is_greater">&gt;</a><span class="esymbol">&quot;</span> <span class="esymbol">(</span><span class="elocal">other</span><span class="esymbol">:</span> <a class="eclass" href="../kernel/number.html">NUMBER</a><span class="esymbol">)</span><span class="esymbol">:</span> <span class="neclass">BOOLEAN</span>
+		<span class="ekeyword">require</span>
+			<span class="etag">other_exists</span><span class="esymbol">:</span> <span class="elocal">other</span> <span class="esymbol">/=</span> <span class="ekeyword">Void</span>
+		<span class="ekeyword">do</span>
+			<span class="ekeyword">Result</span> <span class="esymbol">:=</span> <a class="efeature" href="../kernel/number.html#f_value">value</a> <span class="esymbol">&gt;</span> <span class="elocal">other</span><span class="edot">.</span><a class="efeature" href="../kernel/number.html#f_value">value</a>
+		<span class="ekeyword">ensure</span>
+			<span class="etag">definition</span><span class="esymbol">:</span> <span class="ekeyword">Result</span> <span class="esymbol">=</span> <span class="esymbol">(</span><a class="efeature" href="../kernel/number.html#f_value">value</a> <span class="esymbol">&gt;</span> <span class="elocal">other</span><span class="edot">.</span><a class="efeature" href="../kernel/number.html#f_value">value</a><span class="esymbol">)</span>
+		<span class="ekeyword">end</span>
+
+	<a name="f_is_equal"></a><a class="efeature" href="../kernel/number.html#f_is_equal">is_equal</a> <span class="esymbol">(</span><span class="elocal">other</span><span class="esymbol">:</span> <span class="ekeyword">like</span> <span class="ekeyword">Current</span><span class="esymbol">)</span><span class="esymbol">:</span> <span class="neclass">BOOLEAN</span>
+			<span class="ecomment">--</span><span class="ecomment"> Is </span><span class="equoted">other</span><span class="ecomment"> attached to an object considered</span>
+			<span class="ecomment">--</span><span class="ecomment"> equal to current object?</span>
+		<span class="ekeyword">do</span>
+			<span class="ekeyword">if</span> <span class="ekeyword">attached</span> <span class="elocal">other</span> <span class="ekeyword">as</span> o <span class="ekeyword">then</span>
+				<span class="ekeyword">Result</span> <span class="esymbol">:=</span> <a class="efeature" href="../kernel/number.html#f_value">value</a> <span class="esymbol">=</span> <span class="elocal">o</span><span class="edot">.</span><a class="efeature" href="../kernel/number.html#f_value">value</a>
+			<span class="ekeyword">end</span>
+		<span class="ekeyword">end</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> arithmetic</span>
+
+	<a name="f_plus"></a><a class="efeature" href="../kernel/number.html#f_plus">plus</a> <span class="ekeyword">alias</span> <span class="esymbol">&quot;</span><a class="esymbol" href="../kernel/number.html#f_plus">+</a><span class="esymbol">&quot;</span> <span class="esymbol">(</span><span class="elocal">other</span><span class="esymbol">:</span> <a class="eclass" href="../kernel/number.html">NUMBER</a><span class="esymbol">)</span><span class="esymbol">:</span> <span class="ekeyword">like</span> <span class="ekeyword">Current</span>
+		<span class="ekeyword">require</span>
+			<span class="etag">other_exists</span><span class="esymbol">:</span> <span class="elocal">other</span> <span class="esymbol">/=</span> <span class="ekeyword">Void</span>
+		<span class="ekeyword">deferred</span>
+		<span class="ekeyword">ensure</span>
+			<span class="etag">not_void</span><span class="esymbol">:</span> <span class="ekeyword">Result</span> <span class="esymbol">/=</span> <span class="ekeyword">Void</span>
+			<span class="etag">commutative</span><span class="esymbol">:</span> <span class="esymbol">(</span><span class="ekeyword">Result</span><span class="edot">.</span><a class="efeature" href="../kernel/number.html#f_value">value</a> <span class="esymbol">-</span> <span class="esymbol">(</span><a class="efeature" href="../kernel/number.html#f_value">value</a> <span class="esymbol">+</span> <span class="elocal">other</span><span class="edot">.</span><a class="efeature" href="../kernel/number.html#f_value">value</a><span class="esymbol">)</span><span class="esymbol">)</span><span class="edot">.</span><span class="nefeature">abs</span> <span class="esymbol">&lt;</span> <span class="enumber">0.0001</span>
+		<span class="ekeyword">end</span>
+
+	<a name="f_minus"></a><a class="efeature" href="../kernel/number.html#f_minus">minus</a> <span class="ekeyword">alias</span> <span class="esymbol">&quot;</span><a class="esymbol" href="../kernel/number.html#f_minus">-</a><span class="esymbol">&quot;</span> <span class="esymbol">(</span><span class="elocal">other</span><span class="esymbol">:</span> <a class="eclass" href="../kernel/number.html">NUMBER</a><span class="esymbol">)</span><span class="esymbol">:</span> <span class="ekeyword">like</span> <span class="ekeyword">Current</span>
+		<span class="ekeyword">require</span>
+			<span class="etag">other_exists</span><span class="esymbol">:</span> <span class="elocal">other</span> <span class="esymbol">/=</span> <span class="ekeyword">Void</span>
+		<span class="ekeyword">deferred</span>
+		<span class="ekeyword">ensure</span>
+			<span class="etag">not_void</span><span class="esymbol">:</span> <span class="ekeyword">Result</span> <span class="esymbol">/=</span> <span class="ekeyword">Void</span>
+			<span class="etag">correct_math</span><span class="esymbol">:</span> <span class="esymbol">(</span><span class="ekeyword">Result</span><span class="edot">.</span><a class="efeature" href="../kernel/number.html#f_value">value</a> <span class="esymbol">-</span> <span class="esymbol">(</span><a class="efeature" href="../kernel/number.html#f_value">value</a> <span class="esymbol">-</span> <span class="elocal">other</span><span class="edot">.</span><a class="efeature" href="../kernel/number.html#f_value">value</a><span class="esymbol">)</span><span class="esymbol">)</span><span class="edot">.</span><span class="nefeature">abs</span> <span class="esymbol">&lt;</span> <span class="enumber">0.0001</span>
+		<span class="ekeyword">end</span>
+
+	<a name="f_product"></a><a class="efeature" href="../kernel/number.html#f_product">product</a> <span class="ekeyword">alias</span> <span class="esymbol">&quot;</span><a class="esymbol" href="../kernel/number.html#f_product">*</a><span class="esymbol">&quot;</span> <span class="esymbol">(</span><span class="elocal">other</span><span class="esymbol">:</span> <a class="eclass" href="../kernel/number.html">NUMBER</a><span class="esymbol">)</span><span class="esymbol">:</span> <span class="ekeyword">like</span> <span class="ekeyword">Current</span>
+		<span class="ekeyword">require</span>
+			<span class="etag">other_exists</span><span class="esymbol">:</span> <span class="elocal">other</span> <span class="esymbol">/=</span> <span class="ekeyword">Void</span>
+		<span class="ekeyword">deferred</span>
+		<span class="ekeyword">ensure</span>
+			<span class="etag">not_void</span><span class="esymbol">:</span> <span class="ekeyword">Result</span> <span class="esymbol">/=</span> <span class="ekeyword">Void</span>
+			<span class="etag">correct_math</span><span class="esymbol">:</span> <span class="esymbol">(</span><span class="ekeyword">Result</span><span class="edot">.</span><a class="efeature" href="../kernel/number.html#f_value">value</a> <span class="esymbol">-</span> <span class="esymbol">(</span><a class="efeature" href="../kernel/number.html#f_value">value</a> <span class="esymbol">*</span> <span class="elocal">other</span><span class="edot">.</span><a class="efeature" href="../kernel/number.html#f_value">value</a><span class="esymbol">)</span><span class="esymbol">)</span><span class="edot">.</span><span class="nefeature">abs</span> <span class="esymbol">&lt;</span> <span class="enumber">0.0001</span>
+		<span class="ekeyword">end</span>
+
+	<a name="f_quotient"></a><a class="efeature" href="../kernel/number.html#f_quotient">quotient</a> <span class="ekeyword">alias</span> <span class="esymbol">&quot;</span><a class="esymbol" href="../kernel/number.html#f_quotient">/</a><span class="esymbol">&quot;</span> <span class="esymbol">(</span><span class="elocal">other</span><span class="esymbol">:</span> <a class="eclass" href="../kernel/number.html">NUMBER</a><span class="esymbol">)</span><span class="esymbol">:</span> <span class="ekeyword">like</span> <span class="ekeyword">Current</span>
+		<span class="ekeyword">require</span>
+			<span class="etag">other_exists</span><span class="esymbol">:</span> <span class="elocal">other</span> <span class="esymbol">/=</span> <span class="ekeyword">Void</span>
+			<span class="etag">not_zero</span><span class="esymbol">:</span> <span class="elocal">other</span><span class="edot">.</span><a class="efeature" href="../kernel/number.html#f_value">value</a> <span class="esymbol">/=</span> <span class="enumber">0.0</span>
+		<span class="ekeyword">deferred</span>
+		<span class="ekeyword">ensure</span>
+			<span class="etag">not_void</span><span class="esymbol">:</span> <span class="ekeyword">Result</span> <span class="esymbol">/=</span> <span class="ekeyword">Void</span>
+			<span class="etag">correct_division</span><span class="esymbol">:</span> <span class="esymbol">(</span><span class="ekeyword">Result</span><span class="edot">.</span><a class="efeature" href="../kernel/number.html#f_value">value</a> <span class="esymbol">-</span> <span class="esymbol">(</span><a class="efeature" href="../kernel/number.html#f_value">value</a> <span class="esymbol">/</span> <span class="elocal">other</span><span class="edot">.</span><a class="efeature" href="../kernel/number.html#f_value">value</a><span class="esymbol">)</span><span class="esymbol">)</span><span class="edot">.</span><span class="nefeature">abs</span> <span class="esymbol">&lt;</span> <span class="enumber">0.0001</span>
+		<span class="ekeyword">end</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> converting</span>
+
+	<a name="f_to_double"></a><a class="efeature" href="../kernel/number.html#f_to_double">to_double</a><span class="esymbol">:</span> <span class="neclass">REAL_64</span>
+		<span class="ekeyword">do</span>
+			<span class="ekeyword">Result</span> <span class="esymbol">:=</span> <a class="efeature" href="../kernel/number.html#f_value">value</a>
+		<span class="ekeyword">ensure</span>
+			<span class="etag">same_value</span><span class="esymbol">:</span> <span class="ekeyword">Result</span> <span class="esymbol">=</span> <a class="efeature" href="../kernel/number.html#f_value">value</a>
+		<span class="ekeyword">end</span>
+
+	<a name="f_to_integer"></a><a class="efeature" href="../kernel/number.html#f_to_integer">to_integer</a><span class="esymbol">:</span> <span class="neclass">INTEGER_32</span>
+		<span class="ekeyword">do</span>
+			<span class="ekeyword">Result</span> <span class="esymbol">:=</span> <a class="efeature" href="../kernel/number.html#f_value">value</a><span class="edot">.</span><span class="nefeature">truncated_to_integer</span>
+		<span class="ekeyword">end</span>
+
+	<a name="f_to_string"></a><a class="efeature" href="../kernel/number.html#f_to_string">to_string</a><span class="esymbol">:</span> <span class="neclass">STRING_8</span>
+		<span class="ekeyword">do</span>
+			<span class="ekeyword">create</span> <span class="ekeyword">Result</span><span class="edot">.</span><span class="nefeature">make_from_string</span><span class="esymbol"> </span><span class="esymbol">(</span><a class="efeature" href="../kernel/number.html#f_value">value</a><span class="edot">.</span><span class="nefeature">out</span><span class="esymbol">)</span>
+		<span class="ekeyword">ensure</span>
+			<span class="etag">not_empty</span><span class="esymbol">:</span> <span class="ekeyword">not</span> <span class="ekeyword">Result</span><span class="edot">.</span><span class="nefeature">is_empty</span>
+		<span class="ekeyword">end</span>
+	
+<span class="ekeyword">feature</span> <span class="ecomment">--</span><span class="ecomment"> print</span>
+
+	<a name="f_out"></a><a class="efeature" href="../kernel/number.html#f_out">out</a><span class="esymbol">:</span> <span class="neclass">STRING_8</span>
+			<span class="ecomment">--</span><span class="ecomment"> New string containing terse printable representation</span>
+			<span class="ecomment">--</span><span class="ecomment"> of current object</span>
+		<span class="ekeyword">do</span>
+			<span class="ekeyword">Result</span> <span class="esymbol">:=</span> <a class="efeature" href="../kernel/number.html#f_to_string">to_string</a>
+		<span class="ekeyword">end</span>
+	
+<span class="ekeyword">end</span> <span class="ecomment">--</span> <span class="ecomment">class </span><a class="eclass" href="../kernel/number.html">NUMBER</a></pre><form class="nav" onsubmit="go_to('../',this.c.value);return false;">
+<div class="nav">
+<a class="nav hierarchy" href="../class_list.html">Classes</a>
+<a class="nav hierarchy" href="../cluster_list.html">Clusters</a>
+<a class="nav hierarchy" href="../cluster_hierarchy.html">Cluster hierarchy</a>
+<a class="nav class" href="number_chart.html">Chart</a>
+<a class="nav class" href="number_links.html">Relations</a>
+<span class="nav class selected">Text</span>
+<a class="nav class" href="number_short.html">Contracts</a>
+<span class="nav class goto">Go to: <input name="c" value="number"></span>
+</div></form><pre></pre>
+<p style="text-align:center;">Generated by <a href="http://www.eiffel.com">ISE EiffelStudio</a></p>
+</body>
+</html>
+

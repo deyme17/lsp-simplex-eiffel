@@ -1,0 +1,37 @@
+<!--
+	classList = new Array (
+		"INTEGER_NUMBER",
+		"NUMBER",
+		"REAL_NUMBER",
+		"SIMPLEX_CONTEXT",
+		"SIMPLEX_IO",
+		"SIMPLEX_PIVOT",
+		"SIMPLEX_SOLVER"
+	);
+
+	locationList = new Array (
+		"kernel/integer_number_chart.html",
+		"kernel/number_chart.html",
+		"kernel/real_number_chart.html",
+		"simplex/simplex_context_chart.html",
+		"simplex/simplex_io_chart.html",
+		"simplex/simplex_pivot_chart.html",
+		"simplex/simplex_solver_chart.html"
+	);
+
+	function indexOfClass (name) {
+		for (i = 0; i < classList.length; i++) {
+			if (name == classList[i]) return i;
+		}
+		return -1;
+	};
+
+	function go_to (baseLocation, className) {
+		var index = indexOfClass (className.toUpperCase ());
+		if (index >= 0) {
+			window.location = baseLocation + locationList[index];
+		} else {
+			alert ("Class " + className.toUpperCase () + " does not exist in system");
+		}
+	}
+// -->
