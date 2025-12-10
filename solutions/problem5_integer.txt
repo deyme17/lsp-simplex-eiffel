@@ -1,3 +1,4 @@
+# Running SimplexM (INTEGER mode)
 
 simplexeiffel: system execution failed.
 Following is the set of recorded exceptions:
@@ -9,23 +10,23 @@ In thread           Root thread            0x0 (thread id)
 Class / Object      Routine                Nature of exception           Effect
 -------------------------------------------------------------------------------
 INTEGER_NUMBER      make @2                value_set:                   
-<000001A78B4C7088>                         Postcondition violated.       Fail
+<000002227F0FB728>                         Postcondition violated.       Fail
 -------------------------------------------------------------------------------
 INTEGER_NUMBER      make @2                                             
-<000001A78B4C7088>                         Routine failure.              Fail
+<000002227F0FB728>                         Routine failure.              Fail
 -------------------------------------------------------------------------------
 SIMPLEX_IO          parse_value @3                                      
-<000001A78B4C5948>                         Routine failure.              Fail
+<000002227F0FA2B8>                         Routine failure.              Fail
 -------------------------------------------------------------------------------
 SIMPLEX_IO          read_from_stdin @29                                 
-<000001A78B4C5948>                         Routine failure.              Fail
+<000002227F0FA2B8>                         Routine failure.              Fail
 -------------------------------------------------------------------------------
 SIMPLEXAPP          run_integer_solver @5                               
-<000001A78B4C45A8>                         Routine failure.              Fail
+<000002227F0F85A8>                         Routine failure.              Fail
 -------------------------------------------------------------------------------
 SIMPLEXAPP          make @8                                             
-<000001A78B4C45A8>                         Routine failure.              Rescue
+<000002227F0F85A8>                         Routine failure.              Rescue
 -------------------------------------------------------------------------------
 SIMPLEXAPP          root's creation                                     
-<000001A78B4C45A8>                         Routine failure.              Exit
+<000002227F0F85A8>                         Routine failure.              Exit
 -------------------------------------------------------------------------------

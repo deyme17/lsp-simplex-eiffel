@@ -1,1 +1,27 @@
-10
+# Running SimplexM (REAL mode)
+
+=== STARTING SIMPLEX (!REAL_NUMBER) ===
+  State: v=0
+  Basis B: {3=7 4=5 }
+  Non-Basis N: {1(c=3) 2(c=4) }
+
+[Step 1]
+  > Entering Variable: x2 (coeff: 4)
+  > Leaving Variable:  x3
+  State: v=9.3333333333333339
+  Basis B: {4=2.6666666666666665 2=2.3333333333333335 }
+  Non-Basis N: {1(c=0.33333333333333348) 3(c=-1.3333333333333333) }
+
+[Step 2]
+  > Entering Variable: x1 (coeff: 0.33333333333333348)
+  > Leaving Variable:  x4
+  State: v=10
+  Basis B: {2=1.0000000000000004 1=1.9999999999999998 }
+  Non-Basis N: {3(c=-1.25) 4(c=-0.25000000000000006) }
+
+[Step 3]
+Result: OPTIMAL solution found.
+=== FINISHED ===
+# max value for function 10 (real version)
+# Status: Optimal
+# Iterations: 3

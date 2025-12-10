@@ -1,1 +1,26 @@
-34
+# Running SimplexM (INTEGER mode)
+
+=== STARTING SIMPLEX (!INTEGER_NUMBER) ===
+  State: v=0
+  Basis B: {3=5 4=4 5=8 }
+  Non-Basis N: {1(c=5) 2(c=3) }
+
+[Step 1]
+  > Entering Variable: x1 (coeff: 5)
+  > Leaving Variable:  x3
+  State: v=25
+  Basis B: {4=4 5=3 1=5 }
+  Non-Basis N: {2(c=3) 3(c=-5) }
+
+[Step 2]
+  > Entering Variable: x2 (coeff: 3)
+  > Leaving Variable:  x5
+  State: v=34
+  Basis B: {4=1 1=5 2=3 }
+  Non-Basis N: {3(c=-2) 5(c=-3) }
+
+[Step 3]
+Result: OPTIMAL solution found.
+=== FINISHED ===
+# max value for function 34 (integer version)
+# Status: Optimal

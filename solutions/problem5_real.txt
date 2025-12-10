@@ -1,1 +1,7018 @@
-0
+# Running SimplexM (REAL mode)
+
+=== STARTING SIMPLEX (!REAL_NUMBER) ===
+  State: v=0
+  Basis B: {5=0 6=0 7=1 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 1]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {6=0 7=1 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 2]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 3]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 4]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 5]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 6]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 7]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 8]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 9]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 10]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 11]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 12]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 13]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 14]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 15]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 16]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 17]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 18]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 19]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 20]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 21]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 22]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 23]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 24]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 25]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 26]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 27]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 28]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 29]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 30]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 31]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 32]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 33]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 34]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 35]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 36]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 37]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 38]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 39]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 40]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 41]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 42]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 43]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 44]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 45]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 46]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 47]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 48]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 49]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 50]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 51]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 52]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 53]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 54]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 55]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 56]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 57]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 58]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 59]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 60]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 61]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 62]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 63]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 64]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 65]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 66]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 67]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 68]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 69]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 70]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 71]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 72]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 73]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 74]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 75]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 76]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 77]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 78]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 79]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 80]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 81]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 82]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 83]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 84]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 85]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 86]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 87]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 88]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 89]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 90]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 91]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 92]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 93]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 94]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 95]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 96]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 97]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 98]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 99]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 100]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 101]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 102]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 103]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 104]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 105]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 106]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 107]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 108]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 109]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 110]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 111]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 112]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 113]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 114]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 115]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 116]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 117]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 118]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 119]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 120]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 121]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 122]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 123]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 124]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 125]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 126]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 127]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 128]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 129]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 130]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 131]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 132]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 133]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 134]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 135]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 136]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 137]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 138]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 139]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 140]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 141]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 142]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 143]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 144]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 145]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 146]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 147]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 148]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 149]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 150]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 151]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 152]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 153]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 154]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 155]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 156]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 157]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 158]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 159]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 160]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 161]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 162]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 163]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 164]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 165]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 166]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 167]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 168]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 169]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 170]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 171]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 172]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 173]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 174]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 175]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 176]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 177]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 178]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 179]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 180]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 181]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 182]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 183]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 184]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 185]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 186]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 187]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 188]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 189]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 190]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 191]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 192]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 193]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 194]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 195]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 196]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 197]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 198]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 199]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 200]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 201]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 202]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 203]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 204]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 205]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 206]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 207]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 208]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 209]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 210]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 211]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 212]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 213]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 214]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 215]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 216]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 217]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 218]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 219]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 220]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 221]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 222]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 223]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 224]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 225]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 226]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 227]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 228]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 229]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 230]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 231]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 232]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 233]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 234]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 235]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 236]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 237]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 238]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 239]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 240]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 241]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 242]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 243]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 244]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 245]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 246]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 247]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 248]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 249]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 250]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 251]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 252]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 253]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 254]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 255]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 256]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 257]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 258]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 259]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 260]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 261]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 262]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 263]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 264]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 265]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 266]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 267]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 268]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 269]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 270]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 271]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 272]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 273]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 274]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 275]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 276]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 277]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 278]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 279]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 280]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 281]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 282]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 283]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 284]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 285]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 286]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 287]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 288]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 289]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 290]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 291]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 292]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 293]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 294]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 295]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 296]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 297]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 298]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 299]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 300]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 301]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 302]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 303]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 304]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 305]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 306]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 307]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 308]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 309]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 310]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 311]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 312]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 313]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 314]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 315]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 316]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 317]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 318]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 319]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 320]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 321]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 322]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 323]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 324]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 325]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 326]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 327]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 328]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 329]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 330]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 331]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 332]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 333]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 334]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 335]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 336]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 337]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 338]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 339]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 340]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 341]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 342]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 343]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 344]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 345]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 346]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 347]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 348]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 349]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 350]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 351]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 352]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 353]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 354]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 355]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 356]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 357]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 358]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 359]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 360]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 361]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 362]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 363]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 364]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 365]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 366]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 367]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 368]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 369]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 370]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 371]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 372]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 373]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 374]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 375]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 376]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 377]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 378]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 379]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 380]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 381]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 382]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 383]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 384]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 385]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 386]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 387]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 388]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 389]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 390]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 391]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 392]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 393]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 394]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 395]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 396]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 397]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 398]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 399]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 400]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 401]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 402]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 403]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 404]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 405]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 406]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 407]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 408]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 409]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 410]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 411]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 412]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 413]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 414]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 415]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 416]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 417]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 418]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 419]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 420]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 421]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 422]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 423]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 424]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 425]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 426]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 427]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 428]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 429]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 430]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 431]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 432]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 433]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 434]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 435]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 436]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 437]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 438]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 439]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 440]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 441]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 442]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 443]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 444]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 445]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 446]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 447]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 448]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 449]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 450]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 451]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 452]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 453]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 454]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 455]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 456]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 457]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 458]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 459]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 460]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 461]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 462]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 463]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 464]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 465]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 466]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 467]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 468]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 469]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 470]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 471]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 472]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 473]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 474]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 475]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 476]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 477]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 478]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 479]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 480]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 481]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 482]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 483]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 484]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 485]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 486]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 487]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 488]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 489]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 490]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 491]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 492]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 493]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 494]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 495]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 496]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 497]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 498]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 499]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 500]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 501]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 502]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 503]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 504]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 505]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 506]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 507]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 508]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 509]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 510]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 511]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 512]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 513]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 514]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 515]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 516]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 517]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 518]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 519]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 520]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 521]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 522]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 523]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 524]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 525]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 526]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 527]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 528]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 529]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 530]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 531]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 532]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 533]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 534]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 535]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 536]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 537]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 538]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 539]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 540]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 541]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 542]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 543]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 544]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 545]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 546]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 547]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 548]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 549]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 550]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 551]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 552]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 553]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 554]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 555]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 556]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 557]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 558]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 559]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 560]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 561]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 562]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 563]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 564]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 565]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 566]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 567]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 568]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 569]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 570]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 571]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 572]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 573]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 574]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 575]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 576]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 577]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 578]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 579]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 580]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 581]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 582]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 583]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 584]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 585]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 586]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 587]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 588]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 589]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 590]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 591]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 592]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 593]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 594]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 595]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 596]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 597]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 598]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 599]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 600]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 601]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 602]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 603]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 604]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 605]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 606]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 607]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 608]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 609]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 610]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 611]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 612]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 613]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 614]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 615]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 616]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 617]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 618]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 619]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 620]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 621]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 622]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 623]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 624]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 625]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 626]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 627]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 628]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 629]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 630]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 631]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 632]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 633]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 634]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 635]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 636]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 637]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 638]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 639]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 640]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 641]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 642]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 643]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 644]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 645]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 646]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 647]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 648]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 649]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 650]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 651]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 652]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 653]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 654]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 655]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 656]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 657]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 658]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 659]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 660]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 661]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 662]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 663]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 664]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 665]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 666]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 667]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 668]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 669]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 670]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 671]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 672]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 673]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 674]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 675]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 676]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 677]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 678]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 679]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 680]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 681]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 682]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 683]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 684]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 685]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 686]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 687]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 688]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 689]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 690]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 691]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 692]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 693]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 694]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 695]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 696]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 697]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 698]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 699]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 700]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 701]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 702]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 703]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 704]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 705]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 706]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 707]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 708]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 709]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 710]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 711]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 712]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 713]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 714]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 715]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 716]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 717]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 718]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 719]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 720]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 721]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 722]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 723]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 724]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 725]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 726]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 727]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 728]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 729]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 730]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 731]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 732]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 733]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 734]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 735]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 736]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 737]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 738]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 739]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 740]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 741]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 742]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 743]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 744]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 745]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 746]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 747]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 748]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 749]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 750]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 751]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 752]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 753]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 754]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 755]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 756]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 757]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 758]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 759]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 760]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 761]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 762]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 763]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 764]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 765]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 766]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 767]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 768]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 769]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 770]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 771]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 772]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 773]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 774]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 775]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 776]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 777]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 778]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 779]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 780]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 781]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 782]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 783]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 784]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 785]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 786]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 787]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 788]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 789]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 790]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 791]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 792]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 793]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 794]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 795]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 796]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 797]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 798]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 799]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 800]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 801]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 802]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 803]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 804]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 805]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 806]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 807]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 808]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 809]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 810]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 811]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 812]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 813]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 814]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 815]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 816]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 817]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 818]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 819]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 820]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 821]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 822]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 823]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 824]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 825]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 826]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 827]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 828]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 829]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 830]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 831]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 832]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 833]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 834]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 835]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 836]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 837]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 838]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 839]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 840]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 841]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 842]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 843]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 844]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 845]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 846]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 847]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 848]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 849]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 850]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 851]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 852]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 853]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 854]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 855]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 856]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 857]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 858]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 859]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 860]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 861]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 862]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 863]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 864]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 865]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 866]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 867]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 868]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 869]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 870]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 871]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 872]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 873]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 874]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 875]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 876]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 877]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 878]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 879]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 880]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 881]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 882]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 883]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 884]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 885]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 886]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 887]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 888]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 889]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 890]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 891]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 892]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 893]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 894]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 895]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 896]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 897]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 898]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 899]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 900]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 901]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 902]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 903]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 904]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 905]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 906]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 907]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 908]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 909]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 910]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 911]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 912]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 913]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 914]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 915]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 916]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 917]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 918]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 919]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 920]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 921]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 922]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 923]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 924]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 925]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 926]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 927]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 928]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 929]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 930]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 931]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 932]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 933]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 934]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 935]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 936]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 937]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 938]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 939]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 940]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 941]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 942]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 943]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 944]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 945]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 946]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 947]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 948]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 949]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 950]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 951]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 952]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 953]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 954]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 955]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 956]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 957]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 958]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 959]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 960]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 961]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 962]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 963]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 964]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 965]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 966]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 967]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 968]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 969]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 970]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 971]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 972]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 973]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 974]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 975]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 976]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 977]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 978]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 979]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 980]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 981]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 982]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 983]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 984]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 985]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 986]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 987]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 988]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 989]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 990]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 991]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 992]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 993]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 994]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 995]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+
+[Step 996]
+  > Entering Variable: x6 (coeff: 24)
+  > Leaving Variable:  x4
+  State: v=0
+  Basis B: {7=1 5=0 6=0 }
+  Non-Basis N: {1(c=10) 2(c=-57) 3(c=-9) 4(c=-24) }
+
+[Step 997]
+  > Entering Variable: x1 (coeff: 10)
+  > Leaving Variable:  x5
+  State: v=0
+  Basis B: {7=1 6=0 1=0 }
+  Non-Basis N: {2(c=53) 3(c=41) 4(c=-204) 5(c=-20) }
+
+[Step 998]
+  > Entering Variable: x2 (coeff: 53)
+  > Leaving Variable:  x6
+  State: v=0
+  Basis B: {7=1 1=0 2=0 }
+  Non-Basis N: {3(c=14.5) 4(c=-98) 5(c=-6.75) 6(c=-13.25) }
+
+[Step 999]
+  > Entering Variable: x3 (coeff: 14.5)
+  > Leaving Variable:  x1
+  State: v=0
+  Basis B: {7=1 2=0 3=0 }
+  Non-Basis N: {4(c=18) 5(c=15) 6(c=-93) 1(c=-29) }
+
+[Step 1000]
+  > Entering Variable: x4 (coeff: 18)
+  > Leaving Variable:  x2
+  State: v=0
+  Basis B: {7=1 3=0 4=0 }
+  Non-Basis N: {5(c=10.5) 6(c=-70.5) 1(c=-20) 2(c=-9) }
+
+[Step 1001]
+  > Entering Variable: x5 (coeff: 10.5)
+  > Leaving Variable:  x3
+  State: v=0
+  Basis B: {7=1 4=0 5=0 }
+  Non-Basis N: {6(c=24) 1(c=22) 2(c=-93) 3(c=-21) }
+Result: TIMEOUT (Possible cycling due to precision errors).
+=== FINISHED ===
+# max value for function 0 (real version)
+# Status: Timeout
+# Iterations: 1001

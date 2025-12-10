@@ -23,7 +23,7 @@ for %%f in (%INPUT_DIR%\*.txt) do (
     echo [TESTING] %%f ...
 
     :: 1. REAL MODE
-    type "%%f" | "%EXE_PATH%" > "%OUTPUT_DIR%\!FILENAME!_real.txt" 2>&1
+    type "%%f" | "%EXE_PATH%" -v > "%OUTPUT_DIR%\!FILENAME!_real.txt" 2>&1
     if !errorlevel! equ 0 (
         echo    -- Real mode: OK. Saved to !FILENAME!_real.txt
     ) else (
@@ -31,7 +31,7 @@ for %%f in (%INPUT_DIR%\*.txt) do (
     )
 
     :: 2. INTEGER MODE
-    type "%%f" | "%EXE_PATH%" -i > "%OUTPUT_DIR%\!FILENAME!_integer.txt" 2>&1
+    type "%%f" | "%EXE_PATH%" -i -v > "%OUTPUT_DIR%\!FILENAME!_integer.txt" 2>&1
     if !errorlevel! equ 0 (
         echo    -- Integer mode: OK. Saved to !FILENAME!_integer.txt
     ) else (

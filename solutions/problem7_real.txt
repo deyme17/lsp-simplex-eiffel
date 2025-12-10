@@ -1,1 +1,27 @@
-24
+# Running SimplexM (REAL mode)
+
+=== STARTING SIMPLEX (!REAL_NUMBER) ===
+  State: v=0
+  Basis B: {6=5 7=8 }
+  Non-Basis N: {1(c=5) 2(c=4) 3(c=3) 4(c=2) 5(c=1) }
+
+[Step 1]
+  > Entering Variable: x1 (coeff: 5)
+  > Leaving Variable:  x7
+  State: v=20
+  Basis B: {6=1 1=4 }
+  Non-Basis N: {2(c=4) 3(c=-2) 4(c=2) 5(c=-4) 7(c=-2.5) }
+
+[Step 2]
+  > Entering Variable: x2 (coeff: 4)
+  > Leaving Variable:  x6
+  State: v=24
+  Basis B: {1=4 2=1 }
+  Non-Basis N: {3(c=-2) 4(c=-2) 5(c=-4) 7(c=-0.5) 6(c=-4) }
+
+[Step 3]
+Result: OPTIMAL solution found.
+=== FINISHED ===
+# max value for function 24 (real version)
+# Status: Optimal
+# Iterations: 3

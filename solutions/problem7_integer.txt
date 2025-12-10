@@ -1,3 +1,13 @@
+# Running SimplexM (INTEGER mode)
+
+=== STARTING SIMPLEX (!INTEGER_NUMBER) ===
+  State: v=0
+  Basis B: {6=5 7=8 }
+  Non-Basis N: {1(c=5) 2(c=4) 3(c=3) 4(c=2) 5(c=1) }
+
+[Step 1]
+  > Entering Variable: x1 (coeff: 5)
+  > Leaving Variable:  x7
 
 simplexeiffel: system execution failed.
 Following is the set of recorded exceptions:
@@ -9,23 +19,23 @@ In thread           Root thread            0x0 (thread id)
 Class / Object      Routine                Nature of exception           Effect
 -------------------------------------------------------------------------------
 INTEGER_NUMBER      quotient @5            correct_division:            
-<0000018F8B680838>                         Postcondition violated.       Fail
+<000002167BE42ED8>                         Postcondition violated.       Fail
 -------------------------------------------------------------------------------
 INTEGER_NUMBER      quotient @5                                         
-<0000018F8B680838>                         Routine failure.              Fail
+<000002167BE42ED8>                         Routine failure.              Fail
 -------------------------------------------------------------------------------
 SIMPLEX_PIVOT       pivot @22                                           
-<0000018F8B681F28>                         Routine failure.              Fail
+<000002167BE445C8>                         Routine failure.              Fail
 -------------------------------------------------------------------------------
 SIMPLEX_SOLVER      solve @22                                           
-<0000018F8B681EF8>                         Routine failure.              Fail
+<000002167BE44598>                         Routine failure.              Fail
 -------------------------------------------------------------------------------
 SIMPLEXAPP          run_integer_solver @7                               
-<0000018F8B67E5A8>                         Routine failure.              Fail
+<000002167BE405A8>                         Routine failure.              Fail
 -------------------------------------------------------------------------------
 SIMPLEXAPP          make @8                                             
-<0000018F8B67E5A8>                         Routine failure.              Rescue
+<000002167BE405A8>                         Routine failure.              Rescue
 -------------------------------------------------------------------------------
 SIMPLEXAPP          root's creation                                     
-<0000018F8B67E5A8>                         Routine failure.              Exit
+<000002167BE405A8>                         Routine failure.              Exit
 -------------------------------------------------------------------------------

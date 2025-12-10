@@ -1,1 +1,14 @@
-0
+# Running SimplexM (REAL mode)
+
+=== STARTING SIMPLEX (!REAL_NUMBER) ===
+  State: v=0
+  Basis B: {3=5 }
+  Non-Basis N: {1(c=2) 2(c=1) }
+
+[Step 1]
+  > Entering Variable: x1 (coeff: 2)
+Result: UNBOUNDED (no limiting constraint).
+=== FINISHED ===
+# max value for function 0 (real version)
+# Status: Unbounded
+# Iterations: 1
